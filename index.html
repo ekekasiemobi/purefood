@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../materialize/css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+
+<style>
+    a{
+        color: white;
+    }
+    a.w:hover{
+        text-decoration: overline;
+    }
+
+    nav{
+        z-index: 3;
+        position: fixed;
+    }
+</style>
+
+
+    <section class="header scrollspy" id="top">
+        <nav class="red ">
+            <div class="container ">
+                <a href="#mobile-menu" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+           
+           
+            
+                <a href="">PURE FOOD</a>
+                <ul class="hide-on-med-and-down right">
+                    <li><a href="#top" class="w">Home</a></li>
+                    <li><a href="#fruits">Fruits</a></li>
+                    <li><a href="#grains">Grains</a></li>
+                    <li><a href="#vegetables">Vegitables</a></li>
+                    <li><a href="#legumes">Legumes</a></li>
+                    <li><a href="#seeds">Nuts </a></li>
+                    <li><a href="#meats">Fish-Meat</a></li>
+                    <li><a href="#modal" class="modal-trigger">Contact</a></li>
+                </ul>
+            </div>    
+        </nav>
+        <ul class="sidenav red " id="mobile-menu"><br>
+            <div style="margin-left: 88%;"><i class="material-icons white-text sidenav-close" style="color: white; cursor: pointer; border: 1px white solid; border-radius: 8px;" >close</i></div>
+            <li><a style="color: white;" href="#top">Home</a>
+                    <li><a style="color: white;" href="#fruits">Fruits</a></li>
+                    <li><a style="color: white;" href="#grains">Grains</a></li>
+                    <li><a style="color: white;" href="#vegetables">Vegitables</a></li>
+                    <li><a style="color: white;" href="#legumes">Legumes</a></li>
+                    <li><a style="color: white;" href="#seeds">Nuts </a></li>
+                    <li><a style="color: white;" href="#meats">Fish-Meat</a></li>
+                    <li><a style="color: white;" href="#contact">Contact</a></li>
+                </li>    
+        </ul>
+    </section>
+
+    <section class="slider">
+        <ul class="slides">
+            <li>
+                <img src="../img/fruits-1114060_1280.jpg" alt="">
+            </li>
+            <li>
+                <img src="../img/sharon-pittaway-KUZnfk-2DSQ-unsplash.jpg" alt="">
+            </li>
+            <li>
+                <img src="../img/meal-2834549_1280.jpg" alt="">
+            </li>
+            <li>
+                <img src="../img/salad-2655915_1280.jpg" alt="">
+            </li>
+            <li>
+                <img src="../img/vegetable-skewer-3317055_1280.jpg" alt="">
+            </li>
+            <li>
+                <img src="../img/photography-5061147_1280.jpg" alt="">
+            </li>
+        </ul>
+    </section>
+   
+
+    <section class="upcoming" >
+        <div class="container">
+            <h5>Upcoming Food Categories</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate sequi ipsa accusamus explicabo provident. Sed quis adipisci praesentium eligendi saepe ut corrupti illo ratione omnis quo reprehenderit voluptates nemo eveniet minima voluptatibus exercitationem id incidunt consectetur consequuntur, sit earum, ipsum architecto natus! Expedita unde dolores reprehenderit. At beatae sed dolores?</p>
+        </div>    
+    </section>
+
+    <section class="view">
+        <div class="container">
+            <h5 style="text-align: center;">Click Below To View</h5>
+            <div class="row">
+                <div class="col s12 l4 m4">
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header red white-text">
+                                Beverages
+                            </div>
+                            <div class="collapsible-body black-text">
+                                <img src="../img/can-7223083_1280.jpg"  class="responsive-img">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis minima ducimus, sapiente accusantium aut assumenda.</p>
+                                <a style="color: red;margin-left: 20px;" href="#!">Read more</a>
+                                <a style="color: red;margin-left: 20px;" href="#!">Add to Chart</a>
+                            </div>
+                           
+                        </li>
+                    </ul>
+                </div>
+                <div class="col s12 l4 m4">
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header red white-text">
+                              Dairy
+                            </div>
+                        
+                            <div class="collapsible-body black-text">
+                                <img src="../img/strawberry-3132973_1280.jpg"  class="responsive-img"> 
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis minima ducimus, sapiente accusantium aut assumenda.</p>
+                                <a style="color: red;margin-left: 20px;" href="#!">Read more</a>
+                                <a style="color: red;margin-left: 20px;" href="#!">Add to Chart</a>
+                            </div>
+                            
+                        </li>
+                    </ul>
+                </div>
+                <div class="col s12 l4 m4">
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header red white-text">
+                                Spices
+                            </div>
+                            
+                            <div class="collapsible-body black-text">
+                                <img src="../img/food-887348_1280.jpg"  class="responsive-img"> 
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis minima ducimus, sapiente accusantium aut assumenda.</p>
+                                <a style="color: red;margin-left: 20px;" href="#!">Read more</a>
+                                <a style="color: red; margin-left: 20px;" href="#!">Add to Chart</a>
+                            </div>
+                           
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FRUITS -->
+    <div class=" container Fruits scrollspy" id="fruits">
+        <h5 style="font-weight: bold;">FRUITS</h5>
+    </div>    
+    <section>    
+        <div class=" parallax-container Fruits">
+            <div class="parallax">
+                <img src="../img/fruits-1114060_1280.jpg" alt="">
+            </div>
+        </div>
+        <div class="container">
+            <h5>Categories & Types</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi a ex repellat porro reiciendis. Corrupti, repudiandae vel repellendus nisi impedit dolores quis libero voluptates eum asperiores ab facere! Id, animi. Iusto, autem saepe voluptatum aliquid nulla, porro est quae odio reiciendis natus illum rerum veritatis provident non cupiditate, rem placeat.</p>
+
+            <div class="fruit">
+                <div class="row">
+                    <div class="col s12 l3 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img src="../img/fruit-15408_1280.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold;">CITRUS</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus! Eaque.</p>
+                                </div>
+                                <div style="font-size: 10px;" class="card-action">
+                                    <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 l3 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img src="../img/yogurt-2104327_1280.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold;">BERRIES</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus! Eaque.</p>
+                                </div>
+                                <div style="font-size: 10px;" class="card-action">
+                                    <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 l3 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img src="../img/apple-2273_1920.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold;">APPLES & PEARS</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse  necessitatibus! necessitatibusEaque.</p>
+                                </div>
+                                <div style="font-size: 10px;" class="card-action">
+                                    <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 l3 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img src="../img/tomatoes-2428943_1280.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <p style="font-weight: bold; margin-top: 15px;">TOMATOES & AVACADO</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus!</p>
+                                </div>
+                                <div style="font-size: 10px;" class="card-action ">
+                                     <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+
+    </section>
+
+    <!-- GRAINS -->
+    <div class=" container Grains scrollspy" id="grains" >
+        <h5 style="font-weight: bold;">GRAINS</h5>
+    </div>    
+    <section>    
+        <div class=" parallax-container Fruits">
+            <div class="parallax">
+                <img src="../img/photography-5061147_1280.jpg" alt="">
+            </div>
+        </div>
+        <div class="container">
+            <h5>Categories & Types</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi a ex repellat porro reiciendis. Corrupti, repudiandae vel repellendus nisi impedit dolores quis libero voluptates eum asperiores ab facere! Id, animi. Iusto, autem saepe voluptatum aliquid nulla, porro est quae odio reiciendis natus illum rerum veritatis provident non cupiditate, rem placeat.</p>
+
+            <div class="grains">
+                <div class="row">
+                    <div class="col s12 l3 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img style="height: 130px;" src="../img/rice-6018107_1920.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold;">RICE</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus! Eaque.</p>
+                                </div>
+                                <div style="font-size: 10px;" class="card-action">
+                                    <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 l3 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img src="../img/seed-1285153_1280.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold;">WHEAT</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus! Eaque.</p>
+                                </div>
+                                <div style="font-size: 10px;" class="card-action">
+                                    <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 l3 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img src="../img/oatmeal-4516834_1280.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold;">OATS</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus! Eaque.</p>
+                                </div>
+                                <div style="font-size: 10px;" class="card-action">
+                                     <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 l3 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img src="../img/grains-1621884_1920.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold;">CORN</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus! Eaque.</p>
+                                </div>
+                                <div style="font-size: 10px;" class="card-action">
+                                     <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+
+    </section>
+
+
+    <!-- VEGITABLES -->
+    <div class=" container Vegetable scrollspy" id="vegetables">
+        <h5 style="font-weight: bold;">VEGETABLES</h5>
+    </div>    
+    <section>    
+        <div class=" parallax-container Fruits">
+            <div class="parallax">
+                <img src="../img/meal-2834549_1280.jpg" alt="">
+            </div>
+        </div>
+        <div class="container">
+            <h5>Categories & Types</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi a ex repellat porro reiciendis. Corrupti, repudiandae vel repellendus nisi impedit dolores quis libero voluptates eum asperiores ab facere! Id, animi. Iusto, autem saepe voluptatum aliquid nulla, porro est quae odio reiciendis natus illum rerum veritatis provident non cupiditate, rem placeat.</p>
+
+            <div class="Vegetables">
+                <div class="row">
+                    <div class="col s12 l3 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img  style="height: 112px; width: 100%;"  src="../img/green-2557777_1280.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold;">LEAFY VEGETABLES </h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus! Eaque.</p>
+                                </div>
+                                <div style="font-size: 10px;" class="card-action">
+                                    <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 l3 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img src="../img/farm-market-potatoes-3788851_1280.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold;">TUBER VEGETABLES </h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus! Eaque.</p>
+                                </div>
+                                <div style="font-size: 10px;" class="card-action">
+                                    <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 l3 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img src="../img/vegetable-3302546_1280.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold;">ROOT VEGETABLES </h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus! Eaque.</p>
+                                </div>
+                                <div style="font-size: 10px;" class="card-action">
+                                     <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 l3 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img  style="height: 122px;" src="../img/onions-1238332_1280.jpg" class="materialboxed responsive-img right" alt=""><br><br><br>
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold; padding-top: 47px;">ROOT VEGETABLES </h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus! Eaque.</p>
+                                </div>
+                                <div style="font-size: 10px;" class="card-action">
+                                     <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+
+    </section>
+
+
+    <!-- LEGUMES -->
+    <div class=" container Legumes scrollspy" id="legumes">
+        <h5 style="font-weight: bold;">LEGUMES</h5>
+    </div>    
+    <section>    
+        <div class=" parallax-container legumes">
+            <div class="parallax">
+                <img src="../img/string-bean-3861864_1280.jpg" alt="">
+            </div>
+        </div>
+        <div class="container">
+            <h5>Categories & Types</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi a ex repellat porro reiciendis. Corrupti, repudiandae vel repellendus nisi impedit dolores quis libero voluptates eum asperiores ab facere! Id, animi. Iusto, autem saepe voluptatum aliquid nulla, porro est quae odio reiciendis natus illum rerum veritatis provident non cupiditate, rem placeat.</p>
+
+            <div class="fruit">
+                <div class="row">
+                    <div class="col s12 l3 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img src="../img/chickpeas-682617_1280.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold;">CHICKPEAS</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus! Eaque.</p>
+                                </div>
+                                <div style="font-size: 10px;"  class="card-action">
+                                    <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 l3 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img src="../img/kidney-beans-6953229_1280.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold;">KIDNEY BEANS </h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus! Eaque.</p>
+                                </div>
+                                <div style="font-size: 10px;"  class="card-action">
+                                    <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 l3 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img src="../img/daal-166985_1280.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold;">LENTILES </h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus! Eaque.</p>
+                                </div>
+                                <div style="font-size: 10px;"  class="card-action">
+                                     <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 l3 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img style="height: 127px; width:100%;" src="../img/black-beans-14522.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold;">BLACKBEANS</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus! Eaque.</p>
+                                </div>
+                                <div style="font-size: 10px;"  class="card-action">
+                                     <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+
+    </section>
+
+
+    <!-- NUTS AND SEEDS -->
+    <div id="seeds" class="container SEEDS scrollspy" >
+        <h5 style="font-weight: bold;">Nuts</h5>
+    </div>    
+    <section>    
+        <div class=" parallax-container seeds">
+            <div class="parallax">
+                <img src="../img/nuts-3248743_1280.jpg" alt="">
+            </div>
+        </div>
+        <div class="container">
+            <h5>Categories & Types</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi a ex repellat porro reiciendis. Corrupti, repudiandae vel repellendus nisi impedit dolores quis libero voluptates eum asperiores ab facere! Id, animi. Iusto, autem saepe voluptatum aliquid nulla, porro est quae odio reiciendis natus illum rerum veritatis provident non cupiditate, rem placeat.</p>
+
+            <div class="seeds">
+                <div class="row">
+                    <div class="col s12 l3 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img style="height: 120px;" src="../img/almonds-1768792_1280.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold;">ALMONDS</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus! Eaque.</p>
+                                </div>
+                                <div  style="font-size: 10px;" class="card-action">
+                                    <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 l3 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img style="height: 120px;" src="../img/food-3093374_1280.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold;">CASHEW NUTS</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus! Eaque.</p>
+                                </div>
+                                <div  style="font-size: 10px;" class="card-action">
+                                    <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 l3 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img src="../img/walnuts-101425_1280.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold;">WALNUTS</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus! Eaque.</p>
+                                </div>
+                                <div  style="font-size: 10px;" class="card-action">
+                                     <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 l3 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img style="height: 120px;" src="../img/pine-nuts-1098176_1280.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold;">PINE NUTS</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus! Eaque.</p>
+                                </div>
+                                <div  style="font-size: 10px;" class="card-action">
+                                     <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+
+    </section>
+
+    <!-- FISH MEAT-->
+    <div class=" container meats scrollspy" id="meats">
+        <h5 style="font-weight: bold;">FISH MEATS</h5>
+    </div>    
+    <section>    
+        <div class=" parallax-container Fruits">
+            <div class="parallax">
+                <img src="../img/food-2756948_1280.jpg" alt="">
+            </div>
+        </div>
+        <div class="container">
+            <h5>Categories & Types</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi a ex repellat porro reiciendis. Corrupti, repudiandae vel repellendus nisi impedit dolores quis libero voluptates eum asperiores ab facere! Id, animi. Iusto, autem saepe voluptatum aliquid nulla, porro est quae odio reiciendis natus illum rerum veritatis provident non cupiditate, rem placeat.</p>
+
+            <div class="meats">
+                <div class="row">
+                    <div class="col s12 l4 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img src="../img/beef-1238480_1280.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold;">RED MEAT</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus! Eaque.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 l4 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img src="../img/chicken-wings-5245794_1920.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold;">WHITE MEAT</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus! Eaque.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 l4 m4">
+                        <ul class="card hoverable">
+                            <li>
+                                <div class="card-img">
+                                    <img style="height: 175px;" src="../img/prawns-2348933_1280.jpg" class="materialboxed responsive-img" alt="">
+                                </div>
+                                <div class="card-content">
+                                    <h6 style="font-weight: bold;">SEA FOOD</h6>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos aliquam ex esse necessitatibus! Eaque.</p>
+                                </div>
+                                <div class="card-action">
+                                     <a style="color: red;" href="#!">View</a>
+                                    <a style="color: red;" href="#!">Add to Chart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+
+    </section>
+
+    <section class="comment container ">
+        <h4 style="text-align: center;" >Customers Comments....</h4>
+        <ul class="collection">
+           <a href="" class="collection-item avatar ">
+                <img src="../img/portrait-2865605_1280.jpg" class="circle" alt="">
+                <!-- <i class="material-icons circle red"> person</i> -->
+                <p class="span-title red-text">
+                    kassy
+                </p>
+                <em class="black-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores velit consequuntur odit tenetur qui tempora!</em>
+           </a>
+          
+        </ul>
+        <ul class="collection">
+           <a href="" class="collection-item avatar">
+                <img src="../img/entrepreneur-593358_1280.jpg" class="circle" alt="">
+                <!-- <i class="material-icons circle red"> person</i> -->
+                <p class="span-title red-text">
+                    kassy
+                </p>
+                <em class="black-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores velit consequuntur odit tenetur qui tempora!</em>
+           </a>
+          
+        </ul>
+        <ul class="collection">
+           <a href="" class="collection-item avatar active red">
+                <img src="../img/girl-2663559_1280.jpg" class="circle" alt="">
+                <!-- <i class="material-icons circle grey"> person</i> -->
+                <p class="span-title white-text">
+                    kassy
+                </p>
+                <em class="white-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores velit consequuntur odit tenetur qui tempora!</em>
+           </a>
+          
+        </ul>
+        <ul class="collection">
+           <a href="" class="collection-item avatar">
+                <img src="../img/asian-man-1468032_1280.jpg" class="circle" alt="">
+                <!-- <i class="material-icons circle red"> person</i> -->
+                <p class="span-title red-text">
+                    kassy
+                </p>
+                <em class="black-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores velit consequuntur odit tenetur qui tempora!</em>
+           </a>
+          
+        </ul>
+    </section>
+
+    <section class="container contact scrollspy" id="contact">
+        <h5 style="font-weight: bold;" class="center" >Come Shop With Pure Food Today!</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui distinctio pariatur suscipit omnis harum? Adipisci nobis dignissimos odio nihil, sit non mollitia officia quo aut suscipit iure repellat ducimus officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, possimus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, expedita? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, consectetur repellendus consequuntur dignissimos pariatur tempore est praesentium! Ipsum, nisi error? </p>
+    </section>
+
+    <section class="signup">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6 m6">
+                    <h5>Avialable iteams for shopping</h5> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nemo, laborum dolorem excepturi maiores mollitia sint neque dolore laboriosam tempora! Lorem ipsum dolor sit amet Lorem ipsum dolor, 
+                    </p>
+
+                    <div class="carousel" style="width: 130%; margin-left: -90px;">
+                        
+                        <a class="carousel-item">
+                            <img style="width: 130%;" src="../img/fruits-1114060_1280.jpg" alt="">
+                        </a>
+                        <a class="carousel-item">
+                            <img style="width: 130%;"  src="../img/fruits-1114060_1280.jpg" alt="">
+                        </a>
+                        <a class="carousel-item">
+                            <img style="width: 130%;"  src="../img/fruits-1114060_1280.jpg" alt="">
+                        </a>
+                        <a class="carousel-item">
+                            <img style="width: 130%;"  src="../img/fruits-1114060_1280.jpg" alt="">
+                        </a>
+                        <a class="carousel-item">
+                            <img style="width: 130%;"  src="../img/fruits-1114060_1280.jpg" alt="">
+                        </a>
+                        <a class="carousel-item">
+                            <img style="width: 130%;"  src="../img/fruits-1114060_1280.jpg" alt="">
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="col s12 l1 m1">
+
+                </div>
+
+                <div class="col s12 l5 m5">
+                    <h5 style="color: red;" >Sign yours Ass Up Here</h5>
+                    <form action="">
+                        <div class="row">
+                            <div class="col s12 l6 m6">
+                                <input type="text" placeholder= "First Name">
+                            </div>
+                            <div class="col s12 l6 m6">
+                                <input type="text" placeholder= "Last Name">
+                            </div>
+                        </div> 
+                        <input type="text" placeholder= "Email Address"><br><br>
+                        <div class="row">
+                            <div class="col s12 l6 m6">
+                                <input type="tel" placeholder= "Phone Number">
+                            </div>
+                            <div class="col s12 l6 m6">
+                                <input type="tel" placeholder= "Alternative Number">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12 l6 m6">
+                                <input type="text" class="datepicker" placeholder= "Create Password">
+                            </div>
+                            <div class="col s12 l6 m6">
+                                <input type="text" class="timepicker" placeholder= "Confirm Password">
+                            </div>
+                        </div><br><br>
+                        <a style="margin-left: 27%;"  href="" class="btn red">Create Account</a>
+                           
+                    </form> 
+                 </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <div >
+        <div class="red">
+            <div class="container">
+                <div class="row ">
+                    <div class="col s12 l6 m6 white-text"><br>
+                        <a href="">LOGO</a>
+                        <p style="font-size: 11px;">Lorem ipsum dolor sit amet consectetur, adipisicing <br> elit. Suscipit magnam perferendis animi inventore <br> aperiam temporibus soluta at commodi sed quos. <br> Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. A, magni?</p>
+                      
+                    </div>
+                    <div class="col s12 l4 m4 white-text">
+                        <p>Our Social Links</p>
+                        <a href="">Facebook</a><br>
+                        <a href="">Instagram</a><br>
+                        <a href="">Twitter</a><br>
+                    </div>
+                    <div class="col s12 l2 m2 white-text">
+                        <p>Site Navigation</p>
+                        <a href="#home">Home</a><br>
+                        <a href="#fruits">Fruits</a><br>
+                        <a href="#grains">Grains</a><br>
+                        <a href="#vegetables">Vegitables</a><br>
+                        <a href="#legumes">Legumes</a><br>
+                        <a href="#nuts">Nuts</a> <br>
+                        <a href="#fishmeat">Fish Meat</a>
+                    </div>
+                </div><BR></BR>
+            </div>
+
+        </div>
+    </div>
+    <footer  class="red darken-3 page-footer" style="padding: 1px;" >
+        <div class=" center container">
+            <p>© 2022 Pure Food | Developed & Designed By KASSY~FRANCIS</p>
+        </div>
+    </footer>
+    
+    
+    <div class="modal" id="modal">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum mollitia atque esse numquam rem voluptatibus fuga, ratione error sed excepturi!</p>
+        <a  class="btn modal-close">close</a>
+    </div>
+
+
+    <script src="../materialize/js/jquery.js"></script>
+    <script src="../materialize/js/materialize.js"></script>
+    <script>
+        $('.document').ready(function(){
+           $('.collapsible').collapsible(); 
+           $('.parallax').parallax();
+           $('.carousel').carousel();
+           $('.slider').slider({
+                height:500,
+           });
+           $('.materialboxed').materialbox();
+           $('.scrollspy').scrollSpy();
+           $('.sidenav').sidenav();
+           $('.datepicker').datepicker();
+            $('.timepicker').timepicker();
+            $('#modal').modal();
+            $('#modal').modal('close'); 
+            
+        });
+    </script>
+</body>
+</html>
